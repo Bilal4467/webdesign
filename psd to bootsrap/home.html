@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="pds.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>psd to bootsrap</title>
+  </head>
+  <!-- <div class="container-fluid">
+    <div class="row bar">
+        <div class="logo col-9">
+          <img src="/FLO_log.jpg" alt="logo" />
+        </div>
+        <div class="left col-3">
+          <div class="row right">
+            <div class="create col-4">
+              <button>CREATE</button>
+            </div>
+            <div class="col-1 |">|</div>
+            <div class="col-3 share">
+              <button>SHARE</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div> -->
+  <body>
+    <nav class="navbar bg-light">
+      <div class="container-fluid" id="header">
+        <a class="navbar-brand"><img src="/FLO_log.jpg" alt="" /></a>
+        <form class="d-flex" id="menu">
+          <button type="button" class="btn btn-primary" id="create">
+            CREATE
+          </button>
+          <div class="line">|</div>
+          <button class="btn btn-outline-success" id="ab">SHARE</button>
+          <a class="navbar-brand" href="#">
+            <img src="/menu-icon-1.png" alt="" width="30" height="24" />
+          </a>
+        </form>
+      </div>
+    </nav>
+    <div class="row g-0" id="date">
+      <div class="col-sm-6 col-md-9">
+        <h5>
+          13 sep, 2022
+          <span class="badge bg-secondary" id="utc"> date in UTC</span>
+        </h5>
+      </div>
+      <div class="col-sm-6 col-md-3" id="rdate">
+        <p>
+          Sep 13 2019 - Sep 13, 2020<img
+            src="/calendar-icon-png-transparent-8.png"
+            alt=""
+          />
+          <button>Export</button>
+        </p>
+      </div>
+    </div>
+    <!-- <div class="row" id="box">
+      <div class="col-sm-12 col-md-4" id="box-1">
+        0 Total Companies <br />
+        0 Total Companies<br />
+      </div>
+      <div class="col-sm-12 col-md-4" id="box-2">
+        0 Total Companies<br />
+        0 Total Companies <br />
+      </div>
+      <div class="col-sm-12 col-md-4" id="box-3">
+        Total Companies <br />
+        Total Companies<br />
+      </div>
+    </div> -->
+    <div class="row row-cols-1 row-cols-md-3 g-4" id="cards">
+      <div class="col">
+        <div id="box1">
+          <p><span>0</span> Total Clicks</p>
+
+          <p><span>0</span> Flolinks Create</p>
+        </div>
+      </div>
+
+      <div class="col">
+        <div id="box2">
+          <p><span>0</span> Total Compains</p>
+
+          <p><span>0</span> Total Channel</p>
+        </div>
+      </div>
+      <div class="col">
+        <div id="box3">
+          <p id="sp">Add a Flo.ink Network Domain</p>
+          <p id="total">Total Clicks</p>
+          <p id="coming">
+            <button>Upgrade to Enterprises</button> comming soon
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6 col-sm-12" id="leftbottom">
+        <div id="topflo">
+          <h5>Top Floinks</h5>
+          <a href="#">View All</a>
+        </div>
+        <div class="flo">
+          <div class="fontawesom">
+            <h5>Font Awesome</h5>
+            13 sep, 2022
+          </div>
+          <p>https://fontawsesome.com/icons?d=gallery&q=network&m=free</p>
+          <div class="linkicon">
+            <a href="flo.ink/Gh8mA20">flo.ink/Gh8mA20</a>
+            <div class="imges">
+              <img src="/pages_icon.jpg" alt="" /><img
+                src="/page_oen_icon.jpg"
+                alt=""
+              />
+              <img src="/Arrow_icon.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="flo">
+          <div class="fontawesom">
+            <h5>Font Awesome</h5>
+            13 sep, 2022
+          </div>
+          <p>https://fontawsesome.com/icons?d=gallery&q=network&m=free</p>
+          <div class="linkicon">
+            <a href="flo.ink/Gh8mA20">flo.ink/Gh8mA20</a>
+            <div class="imges">
+              <img src="/pages_icon.jpg" alt="" /><img
+                src="/page_oen_icon.jpg"
+                alt=""
+              />
+              <img src="/Arrow_icon.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="flo">
+          <div class="fontawesom">
+            <h5>Font Awesome</h5>
+            13 sep, 2022
+          </div>
+          <p>https://fontawsesome.com/icons?d=gallery&q=network&m=free</p>
+          <div class="linkicon">
+            <a href="flo.ink/Gh8mA20">flo.ink/Gh8mA20</a>
+            <div class="imges">
+              <img src="/pages_icon.jpg" alt="" /><img
+                src="/page_oen_icon.jpg"
+                alt=""
+              />
+              <img src="/Arrow_icon.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-6 col-sm-12" id="bg">
+        <div class="topi">
+          <div class="topio"><h4>Organic Share Top Content</h4></div>
+          <div class="badge">
+            <h6>
+              Comming soon
+              <span class="badge bg-secondary">Upgrade to Enterprises</span>
+            </h6>
+          </div>
+        </div>
+        <div class="network">
+          <img src="/Network_logo.jpg" alt="" />
+          <h5>Add a Flo.ink Network Domain</h5>
+          <p>Learn about who’s sharing your content</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

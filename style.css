@@ -241,8 +241,12 @@ section {
   display: flex;
 }
 #sectiontop h4 {
-  margin-right: 435px;
+  /* margin-right: 400px; */
   margin-left: 10px;
+}
+#sectiontop h5 {
+  margin-right: 15px;
+  margin-left: 420px;
 }
 
 #linku a {
@@ -262,8 +266,8 @@ section {
   justify-content: space-between;
   margin-left: 10px;
   margin-right: 10px;
-  margin-top: -10px;
-  margin-bottom: 10px;
+  margin-top: -15px;
+  margin-bottom: -15px;
 }
 #luk {
   margin-left: 10px;
@@ -276,4 +280,7 @@ section {
 .fontawesome p {
   font-size: 15px;
   margin-top: 15px;
+}
+.line {
+  margin: 20px;
 }
