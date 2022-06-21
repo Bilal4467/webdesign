@@ -1,37 +1,11 @@
-/* * {
-  margin: 0;
-}
-.bar {
-  background-color: #f7f7f7;
-}
-.create button {
-  background-color: #096eb4;
-  border-radius: 5px;
-  border-color: white;
-  color: white;
-  font-size: large;
-  width: 100px;
-  height: 40px;
-}
-.col-1 {
-  font-size: 39px;
-  color: #096eb4;
-  margin-top: -12px;
-}
-.share button {
-  border-color: #096eb4;
-}
-.right {
-  margin-top: 5px;
-} */
 * {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
-body {
-  background-color: #d21875;
-}
+
 #header {
   background-color: #f7f7f7;
+  padding-left: 2.5%;
+  padding-top: 1%;
 }
 #menu {
   background-color: #f7f7f7;
@@ -63,8 +37,7 @@ body {
 }
 
 #date {
-  padding: 5px 20px;
-  padding-left: 35px;
+  padding: 1% 5%;
 }
 #rdate button {
   background-color: #d3d3d3;
@@ -72,57 +45,45 @@ body {
   border-radius: 5px;
   font-size: larger;
 }
-/* #box-1 {
-  margin: 5px;
-  padding-left: 25px;
-  height: 150px;
-  background: url("/orange_img.jpg") no-repeat center center/cover;
-}
-#box-2 {
-  margin: 5px;
-  padding-left: 25px;
-  height: 150px;
-  background: url("/green_img.jpg") no-repeat center center/cover;
-}
-#box-3 {
-  margin: 5px;
-  padding-left: 25px;
-  height: 150px;
-  background: url("/blue_img.jpg") no-repeat center center/cover;
-}
-#box {
-  padding: 1px 35px;
-} */
-#cards {
-  font-size: 20px;
-  color: white;
-  padding: 5px 35px;
-}
-#cards span {
-  font-size: 40px;
+
+.contan {
+  /* margin: 1%; */
+  padding-left: 3.5%;
+  padding-right: 2.5%;
 }
 
+#cardt {
+  font-size: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#cardt span {
+  font-size: 40px;
+}
+#dabba {
+  margin-top: 10px;
+}
 #box1 {
-  height: 160px;
-  background: url("/orange_img.jpg") no-repeat center center;
-  background-size: contain;
+  color: white;
+  background-color: orangered;
 }
 #box2 {
-  height: 160px;
-  background: url("/green_img.jpg") no-repeat center center;
-  background-size: contain;
+  background-color: rgb(0, 177, 0);
+  color: white;
 }
 #box3 {
-  height: 160px;
-  background: url("/blue_img.jpg") no-repeat center center;
-  background-size: contain;
+  background-color: #096eb4;
+  color: white;
 }
-#box1 {
-  padding-left: 5%;
+#blue {
+  font-size: 14px;
+  align-content: flex-start;
 }
-#box2 {
-  padding-left: 5%;
+#btt {
+  margin-left: -5px;
 }
+
 #sp {
   padding-top: 3%;
   padding-left: 3%;
@@ -162,19 +123,35 @@ body {
   display: flex;
   justify-content: space-between;
 }
-#leftbottom {
-  background-color: #fafafa;
-  /* margin-left: 3.7%; */
-}
+
 .topi {
   display: flex;
   justify-content: space-between;
 }
+.topi h4 {
+  font-size: 20px;
+}
+.topi button {
+  background-color: red !important;
+  border: none;
+  color: white;
+  align-items: center;
+}
 .network {
+  padding-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 #bg {
+  /* padding: 1px; */
   background-color: #fafafa;
+  min-height: 490px;
+  border: #dadada 1px solid;
+  padding: 15px;
+}
+#bot {
+  padding-top: 1%;
+  margin: 1.2%;
 }
