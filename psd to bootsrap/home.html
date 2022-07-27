@@ -29,240 +29,187 @@
 
     <title>psd to bootsrap</title>
   </head>
-  <!-- <div class="container-fluid">
-    <div class="row bar">
-        <div class="logo col-9">
-          <img src="/FLO_log.jpg" alt="logo" />
+  
+    <body>
+    <div class="contanier">
+      <nav class="navbar bg-light">
+        <div class="container-fluid" id="header">
+          <a class="navbar-brand"><img src="/FLO_log.jpg" alt="" /></a>
+          <form class="d-flex" id="menu">
+            <button type="button" class="btn btn-primary" id="create">
+              CREATE
+            </button>
+            <div class="line">|</div>
+            <button class="btn btn-outline-success" id="ab">SHARE</button>
+            <a class="navbar-brand" href="#">
+              <img src="/menu-icon-1.png" alt="" width="30" height="24" />
+            </a>
+          </form>
         </div>
-        <div class="left col-3">
-          <div class="row right">
-            <div class="create col-4">
-              <button>CREATE</button>
-            </div>
-            <div class="col-1 |">|</div>
-            <div class="col-3 share">
-              <button>SHARE</button>
-            </div>
-          </div>
+      </nav>
+      <div class="row g-0" id="date">
+        <div class="col-lg-10 col-sm-6 col-md-9">
+          <h5>
+            13 sep, 2022
+            <span class="badge bg-secondary" id="utc"> date in UTC</span>
+          </h5>
         </div>
-      </div>
-    </div> -->
-  <body>
-    <nav class="navbar bg-light">
-      <div class="container-fluid" id="header">
-        <a class="navbar-brand"><img src="/FLO_log.jpg" alt="" /></a>
-        <form class="d-flex" id="menu">
-          <button type="button" class="btn btn-primary" id="create">
-            CREATE
-          </button>
-          <div class="line">|</div>
-          <button class="btn btn-outline-success" id="ab">SHARE</button>
-          <a class="navbar-brand" href="#">
-            <img src="/menu-icon-1.png" alt="" width="30" height="24" />
-          </a>
-        </form>
-      </div>
-    </nav>
-    <div class="row g-0" id="date">
-      <div class="col-lg-10 col-sm-6 col-md-9">
-        <h5>
-          13 sep, 2022
-          <span class="badge bg-secondary" id="utc"> date in UTC</span>
-        </h5>
-      </div>
-      <div class="col-lg-2 col-sm-6 col-md-3" id="rdate">
-        <p>
-          Sep 13 2019 - Sep 13, 2020<img
-            src="/calendar-icon-png-transparent-8.png"
-            alt=""
-          />
-          <button>Export</button>
-        </p>
-      </div>
-    </div>
-    <!-- <div class="row" id="box">
-      <div class="col-sm-12 col-md-4" id="box-1">
-        0 Total Companies <br />
-        0 Total Companies<br />
-      </div>
-      <div class="col-sm-12 col-md-4" id="box-2">
-        0 Total Companies<br />
-        0 Total Companies <br />
-      </div>
-      <div class="col-sm-12 col-md-4" id="box-3">
-        Total Companies <br />
-        Total Companies<br />
-      </div>
-    </div> -->
-    <!-- <div class="row row-cols-1 row-cols-md-3 g-4" id="cards">
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <div id="box1">
-          <p><span>0</span> Total Clicks</p>
-
-          <p><span>0</span> Flolinks Create</p>
-        </div>
-      </div>
-
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <div id="box2">
-          <p><span>0</span> Total Compains</p>
-
-          <p><span>0</span> Total Channel</p>
-        </div>
-      </div>
-      <div class="col-lg-4 col-md-4 col-sm-12">
-        <div id="box3">
-          <p id="sp">Add a Flo.ink Network Domain</p>
-          <p id="total">Total Clicks</p>
-          <p id="coming">
-            <button>Upgrade to Enterprises</button> comming soon
+        <div class="col-lg-2 col-sm-6 col-md-3" id="rdate">
+          <p>
+            Sep 13 2019 - Sep 13, 2020<img
+              src="/calendar-icon-png-transparent-8.png"
+              alt=""
+            />
+            <button>Export</button>
           </p>
         </div>
       </div>
-    </div> -->
-
-    <div class="contan">
-      <div class="row row-cols-1 row-cols-md-3 g-4" >
-        <div class="col-lg-4 col-md-6 col-sm-12" id="dabba">
-          <div class="card h-100" id="box1">
-            <div class="card-body" id="cardt">
-              <p class="card-text">
-                <div class="textt">
-                  <span>0</span>
-                  Total Clicks
-                </p>
+     
+  
+      <div class="contan">
+        <div class="row row-cols-1 row-cols-md-3 g-4" >
+          <div class="col-lg-4 col-md-6 col-sm-12" id="dabba">
+            <div class="card h-100" id="box1">
+              <div class="card-body" id="cardt">
                 <p class="card-text">
-                  <span>0</span>
-                  Total Clicks
+                  <div class="textt">
+                    <span>0</span>
+                    Total Clicks
+                  </p>
+                  <p class="card-text">
+                    <span>0</span>
+                    Total Clicks
+                  </div>
+                </p>
+                <div class="imag">
+                  <img src="/link.png" alt="link" />
+                  
                 </div>
-              </p>
-              <div class="imag">
-                <img src="/link.png" alt="link" />
-                
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12" id="dabba">
+            <div class="card h-100" id="box2">
+              <div class="card-body" id="cardt">
+                <p class="card-text">
+                  <div class="textt">
+                    <span>0</span>
+                    Total Clicks
+                  </p>
+                  <p class="card-text">
+                    <span>0</span>
+                    Total Clicks
+                  </div>
+                </p>
+                <div class="imag">
+                  <img src="/broadcast.png" alt="link" />
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12" id="dabba">
+            <div class="card h-100" id="box3">
+              <div class="card-body" id="cardt">
+                <div id="blue">
+                  <div id="addf">
+                  </div>
+                  <h5 class="card-title">Add a Flo.ink Network Domain</h5>
+                  <p class="card-text">Learn about who’s sharing your content</p>
+  
+                  <div id="btt"><button>Upgrade </button> comming soon
+                  </div>
+                </div>
+                <div class="imag">
+                  <img src="/wifi.png" alt="">
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12" id="dabba">
-          <div class="card h-100" id="box2">
-            <div class="card-body" id="cardt">
-              <p class="card-text">
-                <div class="textt">
-                  <span>0</span>
-                  Total Clicks
-                </p>
-                <p class="card-text">
-                  <span>0</span>
-                  Total Clicks
+      </div>
+  
+      <div class="row" id="bot">
+        <div class="col-lg-6 col-md-6 col-sm-12" id="leftbottom">
+          <div class="p-5 border bg-light">
+            <div id="topflo">
+              <h5>Top Floinks</h5>
+              <a href="#">View All</a>
+            </div>
+            <div class="flo">
+              <div class="fontawesom">
+                <h5>Font Awesome</h5>
+                13 sep, 2022
+              </div>
+              <p>https://fontawsesome.com/icons?d=gallery&q=network&m=free</p>
+              <div class="linkicon">
+                <a href="flo.ink/Gh8mA20">flo.ink/Gh8mA20</a>
+                <div class="imges">
+                  <img src="/pages_icon.jpg" alt="" /><img
+                    src="/page_oen_icon.jpg"
+                    alt=""
+                  />
+                  <img src="/Arrow_icon.jpg" alt="" />
                 </div>
-              </p>
-              <div class="imag">
-                <img src="/broadcast.png" alt="link" />
-                
+              </div>
+            </div>
+            <div class="flo">
+              <div class="fontawesom">
+                <h5>Font Awesome</h5>
+                13 sep, 2022
+              </div>
+              <p>https://fontawsesome.com/icons?d=gallery&q=network&m=free</p>
+              <div class="linkicon">
+                <a href="flo.ink/Gh8mA20">flo.ink/Gh8mA20</a>
+                <div class="imges">
+                  <img src="/pages_icon.jpg" alt="" /><img
+                    src="/page_oen_icon.jpg"
+                    alt=""
+                  />
+                  <img src="/Arrow_icon.jpg" alt="" />
+                </div>
+              </div>
+            </div>
+            <div class="flo">
+              <div class="fontawesom">
+                <h5>Font Awesome</h5>
+                13 sep, 2022
+              </div>
+              <p>https://fontawsesome.com/icons?d=gallery&q=network&m=free</p>
+              <div class="linkicon">
+                <a href="flo.ink/Gh8mA20">flo.ink/Gh8mA20</a>
+                <div class="imges">
+                  <img src="/pages_icon.jpg" alt="" /><img
+                    src="/page_oen_icon.jpg"
+                    alt=""
+                  />
+                  <img src="/Arrow_icon.jpg" alt="" />
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="col-lg-4 col-md-6 col-sm-12" id="dabba">
-          <div class="card h-100" id="box3">
-            <div class="card-body" id="cardt">
-              <div id="blue">
-                <div id="addf">
-                </div>
-                <h5 class="card-title">Add a Flo.ink Network Domain</h5>
-                <p class="card-text">Learn about who’s sharing your content</p>
-
-                <div id="btt"><button>Upgrade </button> comming soon
-                </div>
-              </div>
-              <div class="imag">
-                <img src="/wifi.png" alt="">
-              </div>
+  
+        <div class="col-lg-6 col-md-6 col-sm-12">
+          <div id="bg">
+            <div class="topi">
+              <h4>Organic Share Top Content</h4>
+  
+              <h6>
+                Comming soon
+                <button type="button" class="btn btn-danger">Upgrade to Enterprises</button>
+              </h6>
+            </div>
+            <div class="network">
+              <img src="/wifii.png" alt="" />
+              <h5>Add a Flo.ink Network Domain</h5>
+              <p>Learn about who’s sharing your content</p>
+              <a href="#">Learn More</a>
             </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="row" id="bot">
-      <div class="col-lg-6 col-md-6 col-sm-12" id="leftbottom">
-        <div class="p-5 border bg-light">
-          <div id="topflo">
-            <h5>Top Floinks</h5>
-            <a href="#">View All</a>
-          </div>
-          <div class="flo">
-            <div class="fontawesom">
-              <h5>Font Awesome</h5>
-              13 sep, 2022
-            </div>
-            <p>https://fontawsesome.com/icons?d=gallery&q=network&m=free</p>
-            <div class="linkicon">
-              <a href="flo.ink/Gh8mA20">flo.ink/Gh8mA20</a>
-              <div class="imges">
-                <img src="/pages_icon.jpg" alt="" /><img
-                  src="/page_oen_icon.jpg"
-                  alt=""
-                />
-                <img src="/Arrow_icon.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="flo">
-            <div class="fontawesom">
-              <h5>Font Awesome</h5>
-              13 sep, 2022
-            </div>
-            <p>https://fontawsesome.com/icons?d=gallery&q=network&m=free</p>
-            <div class="linkicon">
-              <a href="flo.ink/Gh8mA20">flo.ink/Gh8mA20</a>
-              <div class="imges">
-                <img src="/pages_icon.jpg" alt="" /><img
-                  src="/page_oen_icon.jpg"
-                  alt=""
-                />
-                <img src="/Arrow_icon.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-          <div class="flo">
-            <div class="fontawesom">
-              <h5>Font Awesome</h5>
-              13 sep, 2022
-            </div>
-            <p>https://fontawsesome.com/icons?d=gallery&q=network&m=free</p>
-            <div class="linkicon">
-              <a href="flo.ink/Gh8mA20">flo.ink/Gh8mA20</a>
-              <div class="imges">
-                <img src="/pages_icon.jpg" alt="" /><img
-                  src="/page_oen_icon.jpg"
-                  alt=""
-                />
-                <img src="/Arrow_icon.jpg" alt="" />
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-lg-6 col-md-6 col-sm-12">
-        <div id="bg">
-          <div class="topi">
-            <h4>Organic Share Top Content</h4>
-
-            <h6>
-              Comming soon
-              <button type="button" class="btn btn-danger">Upgrade to Enterprises</button>
-            </h6>
-          </div>
-          <div class="network">
-            <img src="/Network_logo.jpg" alt="" />
-            <h5>Add a Flo.ink Network Domain</h5>
-            <p>Learn about who’s sharing your content</p>
-            <a href="#">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
+   
   </body>
 </html>
